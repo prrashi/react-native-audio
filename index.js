@@ -6,7 +6,8 @@ import ReactNative, {
   NativeModules,
   NativeAppEventEmitter,
   DeviceEventEmitter,
-  Platform
+  Platform,
+  PermissionsAndroid
 } from "react-native";
 
 var AudioRecorderManager = NativeModules.AudioRecorderManager;
